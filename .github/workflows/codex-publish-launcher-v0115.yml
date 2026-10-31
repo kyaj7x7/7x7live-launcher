@@ -1,0 +1,34 @@
+name: Temporary local launcher release publisher
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/codex-publish-launcher-v0115.yml
+permissions:
+  contents: write
+jobs:
+  publish:
+    if: startsWith(github.event.head_commit.message, 'Codex: publish local launcher v0.1.115')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download and verify local build
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p dist
+          curl --fail --location --retry 3 --max-time 1200 'https://7x7live.pro/codex-release-upload-20261101/7x7Live-Setup.exe' -o dist/7x7Live-Setup.exe
+          curl --fail --location --retry 3 --max-time 1200 'https://7x7live.pro/codex-release-upload-20261101/7x7Live-Setup.exe.blockmap' -o dist/7x7Live-Setup.exe.blockmap
+          curl --fail --location --retry 3 --max-time 1200 'https://7x7live.pro/codex-release-upload-20261101/latest.yml' -o dist/latest.yml
+          echo '93ce3653417708fead94dc98b4002d5172a9bc008fcd86523e195c184238f233  dist/7x7Live-Setup.exe' | sha256sum -c -
+          echo 'ddb7fbb30dd9b87a70a112c55ef3ee535030177de89650e978c8476487b255bf  dist/7x7Live-Setup.exe.blockmap' | sha256sum -c -
+          echo '0eb6fe531de1c7475a06181812f77b90a5c9466185fefd5c4b2512b9509630d0  dist/latest.yml' | sha256sum -c -
+          test "$(stat -c%s dist/7x7Live-Setup.exe)" -eq 148253801
+          test "$(stat -c%s dist/7x7Live-Setup.exe.blockmap)" -eq 154532
+          test "$(stat -c%s dist/latest.yml)" -eq 333
+      - name: Create release and upload files
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          gh api "repos/${GITHUB_REPOSITORY}/releases" --method POST -f tag_name=v0.1.115 -f name='7x7Live Launcher v0.1.115' -f body='Adds verified GitHub release-manifest fallback and limits the catalog to 7x7Live-owned apps.' -f draft=false -f prerelease=false -f make_latest=true
+          gh release upload v0.1.115 dist/7x7Live-Setup.exe dist/7x7Live-Setup.exe.blockmap dist/latest.yml --repo "${GITHUB_REPOSITORY}"
