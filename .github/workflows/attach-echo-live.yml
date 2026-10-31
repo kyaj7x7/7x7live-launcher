@@ -1,0 +1,28 @@
+name: Attach Echo Live package to 7x7Live launcher release
+on:
+  push:
+    paths:
+      - .github/workflows/attach-echo-live.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  attach:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download and verify Echo Live package
+        env:
+          BASE_URL: https://7x7live.pro/codex-release-upload-20261101
+        run: |
+          set -euo pipefail
+          curl --fail --location --silent --show-error --retry 3 "$BASE_URL/echo-live-win-unpacked.zip" -o echo-live-win-unpacked.zip
+          echo 'edc015981fb4c68d4f89c37cb775ad3625be96eb9762847e5fdd1a0322f55062  echo-live-win-unpacked.zip' | sha256sum --check --status
+          test "$(stat -c%s echo-live-win-unpacked.zip)" -eq 159137782
+          unzip -tq echo-live-win-unpacked.zip
+          unzip -Z1 echo-live-win-unpacked.zip | grep -Fxq 'resources/app.asar'
+          unzip -Z1 echo-live-win-unpacked.zip | grep -Fxq 'Echo Live.exe'
+      - name: Attach package to existing 7x7Live release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        run: gh release upload v0.1.114 echo-live-win-unpacked.zip --repo "$GH_REPO"
