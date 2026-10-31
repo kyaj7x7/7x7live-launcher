@@ -1,0 +1,289 @@
+{
+  "version": 1,
+  "owner": "kyaj7x7",
+  "updated_at": "2026-10-31T20:20:14.680Z",
+  "repositories": {
+    "efir-snake3d": {
+      "latest": "v1.1.5",
+      "releases": {
+        "v1.1.5": {
+          "tag_name": "v1.1.5",
+          "draft": false,
+          "prerelease": false,
+          "assets": [
+            {
+              "name": "win-unpacked.zip",
+              "size": 143522430,
+              "state": "uploaded",
+              "digest": "sha256:c526a55515ac6ff47ec935db924b7d4e65d9b6e975f50df128538304e7eae061",
+              "browser_download_url": "https://github.com/kyaj7x7/efir-snake3d/releases/download/v1.1.5/win-unpacked.zip"
+            }
+          ]
+        }
+      }
+    },
+    "TIKTIMER2": {
+      "latest": "v1.0.0",
+      "releases": {
+        "v1.0.0": {
+          "tag_name": "v1.0.0",
+          "draft": false,
+          "prerelease": false,
+          "assets": [
+            {
+              "name": "tiktimer.zip",
+              "size": 614572832,
+              "state": "uploaded",
+              "digest": "sha256:63f1c2edc16eea3ec24dcd50a455a0bf9bba12e8ee427596a00a56a2fb85592b",
+              "browser_download_url": "https://github.com/kyaj7x7/TIKTIMER2/releases/download/v1.0.0/tiktimer.zip"
+            }
+          ]
+        }
+      }
+    },
+    "FLAPPYBIRD": {
+      "latest": "v1.5.3",
+      "releases": {
+        "v1.5.3": {
+          "tag_name": "v1.5.3",
+          "draft": false,
+          "prerelease": false,
+          "assets": [
+            {
+              "name": "win-unpacked.zip",
+              "size": 175363144,
+              "state": "uploaded",
+              "digest": "sha256:4849a3d0f6d1f47cf3716fcd34e9c30f23c17f45d576d74ad82a4c2081ef46cf",
+              "browser_download_url": "https://github.com/kyaj7x7/FLAPPYBIRD/releases/download/v1.5.3/win-unpacked.zip"
+            }
+          ]
+        }
+      }
+    },
+    "IMMWIGET": {
+      "latest": "v0.11.1",
+      "releases": {
+        "v0.11.1": {
+          "tag_name": "v0.11.1",
+          "draft": false,
+          "prerelease": false,
+          "assets": [
+            {
+              "name": "immwiget-win-unpacked-v0.11.1.zip",
+              "size": 221331743,
+              "state": "uploaded",
+              "digest": "sha256:4973d55b2a4cb884478c13d593f4dd7a20c16916b38eada9eda4ff0875fe4f2e",
+              "browser_download_url": "https://github.com/kyaj7x7/IMMWIGET/releases/download/v0.11.1/immwiget-win-unpacked-v0.11.1.zip"
+            }
+          ]
+        }
+      }
+    },
+    "efir-neon-coil": {
+      "latest": "v1.1.0",
+      "releases": {
+        "v1.1.0": {
+          "tag_name": "v1.1.0",
+          "draft": false,
+          "prerelease": false,
+          "assets": [
+            {
+              "name": "win-unpacked.zip",
+              "size": 155989791,
+              "state": "uploaded",
+              "digest": "sha256:23131521a58696bb507e40f743dbd3c5900724029992fbb0b6aefe46fefdc6ac",
+              "browser_download_url": "https://github.com/kyaj7x7/efir-neon-coil/releases/download/v1.1.0/win-unpacked.zip"
+            }
+          ]
+        }
+      }
+    },
+    "efir-prism-break": {
+      "latest": "v1.1.0",
+      "releases": {
+        "v1.1.0": {
+          "tag_name": "v1.1.0",
+          "draft": false,
+          "prerelease": false,
+          "assets": [
+            {
+              "name": "win-unpacked.zip",
+              "size": 155989941,
+              "state": "uploaded",
+              "digest": "sha256:4ce5747a4fbc73240ea6074166a3dac094b3a310e88fa3c5524a836f917a64eb",
+              "browser_download_url": "https://github.com/kyaj7x7/efir-prism-break/releases/download/v1.1.0/win-unpacked.zip"
+            }
+          ]
+        }
+      }
+    },
+    "efir-block-pulse": {
+      "latest": "v1.1.0",
+      "releases": {
+        "v1.1.0": {
+          "tag_name": "v1.1.0",
+          "draft": false,
+          "prerelease": false,
+          "assets": [
+            {
+              "name": "win-unpacked.zip",
+              "size": 155990908,
+              "state": "uploaded",
+              "digest": "sha256:accfc947ec8e4d0199fb69a10464bd95dae8de69a16aa57f47bf262bc043343a",
+              "browser_download_url": "https://github.com/kyaj7x7/efir-block-pulse/releases/download/v1.1.0/win-unpacked.zip"
+            }
+          ]
+        }
+      }
+    },
+    "efir-star-wave": {
+      "latest": "v1.1.0",
+      "releases": {
+        "v1.1.0": {
+          "tag_name": "v1.1.0",
+          "draft": false,
+          "prerelease": false,
+          "assets": [
+            {
+              "name": "win-unpacked.zip",
+              "size": 155993750,
+              "state": "uploaded",
+              "digest": "sha256:2e8f01a9c16b17739f451e8cfa79069b8226567c5d6c4f8610199496c234b68a",
+              "browser_download_url": "https://github.com/kyaj7x7/efir-star-wave/releases/download/v1.1.0/win-unpacked.zip"
+            }
+          ]
+        }
+      }
+    },
+    "efir-sky-sprint": {
+      "latest": "v1.1.0",
+      "releases": {
+        "v1.1.0": {
+          "tag_name": "v1.1.0",
+          "draft": false,
+          "prerelease": false,
+          "assets": [
+            {
+              "name": "win-unpacked.zip",
+              "size": 155996094,
+              "state": "uploaded",
+              "digest": "sha256:b846b57347866ea8f9148aea69357069f17e155106c34b0683c6efd781d76ecd",
+              "browser_download_url": "https://github.com/kyaj7x7/efir-sky-sprint/releases/download/v1.1.0/win-unpacked.zip"
+            }
+          ]
+        }
+      }
+    },
+    "efir-neon-drift": {
+      "latest": "v1.1.0",
+      "releases": {
+        "v1.1.0": {
+          "tag_name": "v1.1.0",
+          "draft": false,
+          "prerelease": false,
+          "assets": [
+            {
+              "name": "win-unpacked.zip",
+              "size": 155992076,
+              "state": "uploaded",
+              "digest": "sha256:d3a9306e296af4b03d37b4f6c422cb25c7fd205d9c0aaad1d2d792f9036605ed",
+              "browser_download_url": "https://github.com/kyaj7x7/efir-neon-drift/releases/download/v1.1.0/win-unpacked.zip"
+            }
+          ]
+        }
+      }
+    },
+    "efir-orbit-pinball": {
+      "latest": "v1.1.0",
+      "releases": {
+        "v1.1.0": {
+          "tag_name": "v1.1.0",
+          "draft": false,
+          "prerelease": false,
+          "assets": [
+            {
+              "name": "win-unpacked.zip",
+              "size": 155991837,
+              "state": "uploaded",
+              "digest": "sha256:aef4bbd501c9441616a73764b66b961f9c7985a53e5a5f44baf8a159e7772f5f",
+              "browser_download_url": "https://github.com/kyaj7x7/efir-orbit-pinball/releases/download/v1.1.0/win-unpacked.zip"
+            }
+          ]
+        }
+      }
+    },
+    "efir-maze-dash": {
+      "latest": "v1.1.0",
+      "releases": {
+        "v1.1.0": {
+          "tag_name": "v1.1.0",
+          "draft": false,
+          "prerelease": false,
+          "assets": [
+            {
+              "name": "win-unpacked.zip",
+              "size": 155991844,
+              "state": "uploaded",
+              "digest": "sha256:4375c3c2ad5bd4f88e106a35ff5d1ea35ec4cea25176e53f5b707c66fe2782bd",
+              "browser_download_url": "https://github.com/kyaj7x7/efir-maze-dash/releases/download/v1.1.0/win-unpacked.zip"
+            }
+          ]
+        }
+      }
+    },
+    "7x7live-launcher": {
+      "latest": "v0.1.114",
+      "releases": {
+        "v0.1.114": {
+          "tag_name": "v0.1.114",
+          "draft": false,
+          "prerelease": false,
+          "assets": [
+            {
+              "name": "7x7Live-Setup.exe",
+              "size": 148249673,
+              "state": "uploaded",
+              "digest": "sha256:d4546be344f9ae3b65f4e972ce6dfae66bd7eecec3b335f0c49080410661c862",
+              "browser_download_url": "https://github.com/kyaj7x7/7x7live-launcher/releases/download/v0.1.114/7x7Live-Setup.exe"
+            },
+            {
+              "name": "7x7Live-Setup.exe.blockmap",
+              "size": 154299,
+              "state": "uploaded",
+              "digest": "sha256:0f07dcb6a26cb8b5089b1995c848d03df570d543d804f93111a476515f9aa59a",
+              "browser_download_url": "https://github.com/kyaj7x7/7x7live-launcher/releases/download/v0.1.114/7x7Live-Setup.exe.blockmap"
+            },
+            {
+              "name": "latest.yml",
+              "size": 333,
+              "state": "uploaded",
+              "digest": "sha256:827efe14218d6877c5ca250c21de1f7e738c672b15b45a6b1007d9cd254b3bd4",
+              "browser_download_url": "https://github.com/kyaj7x7/7x7live-launcher/releases/download/v0.1.114/latest.yml"
+            }
+          ]
+        },
+        "v1.1.0": {
+          "tag_name": "v1.1.0",
+          "draft": false,
+          "prerelease": false,
+          "assets": [
+            {
+              "name": "core-bastion-win-unpacked.zip",
+              "size": 155989363,
+              "state": "uploaded",
+              "digest": "sha256:ec0a93eba63181ee92d33e179a1c4ac2e0702565be27193684578586d6bc26f7",
+              "browser_download_url": "https://github.com/kyaj7x7/7x7live-launcher/releases/download/v1.1.0/core-bastion-win-unpacked.zip"
+            },
+            {
+              "name": "sky-balance-win-unpacked.zip",
+              "size": 155987235,
+              "state": "uploaded",
+              "digest": "sha256:47290ab39f2123495bb9fb8b7dc4ba599974effae330544a6835dac79e4c7407",
+              "browser_download_url": "https://github.com/kyaj7x7/7x7live-launcher/releases/download/v1.1.0/sky-balance-win-unpacked.zip"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
