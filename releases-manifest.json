@@ -1,7 +1,7 @@
 {
   "version": 1,
   "owner": "kyaj7x7",
-  "updated_at": "2026-10-31T20:35:40.274Z",
+  "updated_at": "2026-10-31T20:35:45.355Z",
   "repositories": {
     "efir-snake3d": {
       "latest": "v1.1.6",
@@ -274,7 +274,7 @@
       }
     },
     "7x7live-launcher": {
-      "latest": "v1.1.0",
+      "latest": "v0.1.115",
       "releases": {
         "v0.1.114": {
           "tag_name": "v0.1.114",
