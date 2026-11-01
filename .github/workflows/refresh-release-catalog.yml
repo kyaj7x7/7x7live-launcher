@@ -22,7 +22,7 @@ jobs:
             for (const [repository, entry] of Object.entries(manifest.repositories)) {
               try {
                 const { data: release } = await github.rest.repos.getLatestRelease({ owner, repo: repository });
-                if (!release || release.draft || release.prerelease || !/^v?\d+\\.\d+\\.\d+(?:\\+[a-z\d_.-]+)?$/i.test(release.tag_name)) continue;
+                if (!release || release.draft || release.prerelease || !/^v?\d+\.\d+\.\d+(?:\\+[a-z\d_.-]+)?$/i.test(release.tag_name)) continue;
                 const assets = (release.assets || [])
                   .filter(asset => asset.state === 'uploaded' && Number.isSafeInteger(asset.size) && asset.size > 0 && /^sha256:[a-f\d]{64}$/i.test(asset.digest || ''))
                   .map(asset => ({ name: asset.name, size: asset.size, state: asset.state, digest: asset.digest.toLowerCase(), browser_download_url: asset.browser_download_url }));
