@@ -1,7 +1,7 @@
 {
   "version": 1,
   "owner": "kyaj7x7",
-  "updated_at": "2026-11-01T01:13:55.093Z",
+  "updated_at": "2026-11-01T07:46:02.508Z",
   "repositories": {
     "efir-snake3d": {
       "latest": "v1.1.6",
@@ -330,7 +330,7 @@
       }
     },
     "7x7live-launcher": {
-      "latest": "v0.1.117",
+      "latest": "v0.1.123",
       "releases": {
         "v0.1.114": {
           "tag_name": "v0.1.114",
@@ -469,6 +469,34 @@
               "state": "uploaded",
               "digest": "sha256:9ac046ea61c03f755c24b43ef9d03c53fd0154c9b11d1e5ce70cdb47429257e0",
               "browser_download_url": "https://github.com/kyaj7x7/7x7live-launcher/releases/download/v0.1.117/latest.yml"
+            }
+          ]
+        },
+        "v0.1.123": {
+          "tag_name": "v0.1.123",
+          "draft": false,
+          "prerelease": false,
+          "assets": [
+            {
+              "name": "7x7Live-Setup.exe",
+              "size": 148256493,
+              "state": "uploaded",
+              "digest": "sha256:a372c30128dbb0afde799bc81439e94c18cde92f06e3cc252accacf9f0f8ee9e",
+              "browser_download_url": "https://github.com/kyaj7x7/7x7live-launcher/releases/download/v0.1.123/7x7Live-Setup.exe"
+            },
+            {
+              "name": "7x7Live-Setup.exe.blockmap",
+              "size": 154440,
+              "state": "uploaded",
+              "digest": "sha256:7630eee5c6c42d110b6d04d805da42662bde5e9270c086f4e396437c446a46ee",
+              "browser_download_url": "https://github.com/kyaj7x7/7x7live-launcher/releases/download/v0.1.123/7x7Live-Setup.exe.blockmap"
+            },
+            {
+              "name": "latest.yml",
+              "size": 333,
+              "state": "uploaded",
+              "digest": "sha256:1c7995a24eda7032ad1c9b17e6153c3bf00539d51f53abd05a6711aac20587d2",
+              "browser_download_url": "https://github.com/kyaj7x7/7x7live-launcher/releases/download/v0.1.123/latest.yml"
             }
           ]
         }
