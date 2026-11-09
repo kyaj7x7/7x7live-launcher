@@ -1,7 +1,7 @@
 {
   "version": 1,
   "owner": "kyaj7x7",
-  "updated_at": "2026-11-09T17:16:37.180Z",
+  "updated_at": "2026-11-09T17:51:10.660Z",
   "repositories": {
     "efir-snake3d": {
       "latest": "v1.1.6",
@@ -124,7 +124,7 @@
       }
     },
     "IMMWIGET": {
-      "latest": "v0.11.4",
+      "latest": "v0.11.5",
       "releases": {
         "v0.11.1": {
           "tag_name": "v0.11.1",
@@ -179,6 +179,20 @@
               "state": "uploaded",
               "digest": "sha256:26c1f719c822906a81f93325fca89b5ff1dacb606d7bc39e28fac04f1b63cb21",
               "browser_download_url": "https://github.com/kyaj7x7/IMMWIGET/releases/download/v0.11.4/immwiget-win-unpacked-v0.11.4.zip"
+            }
+          ]
+        },
+        "v0.11.5": {
+          "tag_name": "v0.11.5",
+          "draft": false,
+          "prerelease": false,
+          "assets": [
+            {
+              "name": "immwiget-win-unpacked-v0.11.5.zip",
+              "size": 221843215,
+              "state": "uploaded",
+              "digest": "sha256:e2ae2914a4912edfae26088880593ef55961958555acf715e673475a03e9da17",
+              "browser_download_url": "https://github.com/kyaj7x7/IMMWIGET/releases/download/v0.11.5/immwiget-win-unpacked-v0.11.5.zip"
             }
           ]
         }
