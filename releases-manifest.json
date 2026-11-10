@@ -1,7 +1,7 @@
 {
   "version": 1,
   "owner": "kyaj7x7",
-  "updated_at": "2026-11-10T12:50:39.054Z",
+  "updated_at": "2026-11-10T13:52:34.087Z",
   "repositories": {
     "efir-snake3d": {
       "latest": "v1.1.6",
@@ -44,7 +44,7 @@
       }
     },
     "TIKTIMER2": {
-      "latest": "v2.3.22",
+      "latest": "v2.3.23",
       "releases": {
         "v1.0.0": {
           "tag_name": "v1.0.0",
@@ -99,6 +99,20 @@
               "state": "uploaded",
               "digest": "sha256:ee81a72634bf3f1fb5e137cbb4cb59b19d62a17f1b467bc82b86007f3bd0c70a",
               "browser_download_url": "https://github.com/kyaj7x7/TIKTIMER2/releases/download/v2.3.22/tiktimer.zip"
+            }
+          ]
+        },
+        "v2.3.23": {
+          "tag_name": "v2.3.23",
+          "draft": false,
+          "prerelease": false,
+          "assets": [
+            {
+              "name": "tiktimer.zip",
+              "size": 762605190,
+              "state": "uploaded",
+              "digest": "sha256:d688b18b48ad672cb85aa9189ced470ae8a28809f2300f42681e71ffb8e2331a",
+              "browser_download_url": "https://github.com/kyaj7x7/TIKTIMER2/releases/download/v2.3.23/tiktimer.zip"
             }
           ]
         }
