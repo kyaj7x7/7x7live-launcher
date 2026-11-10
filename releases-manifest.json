@@ -1,7 +1,7 @@
 {
   "version": 1,
   "owner": "kyaj7x7",
-  "updated_at": "2026-11-09T18:03:20.322Z",
+  "updated_at": "2026-11-10T12:50:39.054Z",
   "repositories": {
     "efir-snake3d": {
       "latest": "v1.1.6",
@@ -386,7 +386,7 @@
       }
     },
     "7x7live-launcher": {
-      "latest": "v0.1.128",
+      "latest": "v0.1.129",
       "releases": {
         "v0.1.114": {
           "tag_name": "v0.1.114",
@@ -616,6 +616,69 @@
               "state": "uploaded",
               "digest": "sha256:1ed7ff33c7e5f1f68ea33e630048d18b1230db19e52fd32f0a45ac151d50602d",
               "browser_download_url": "https://github.com/kyaj7x7/7x7live-launcher/releases/download/v0.1.128/latest.yml"
+            }
+          ]
+        },
+        "v0.1.129": {
+          "tag_name": "v0.1.129",
+          "draft": false,
+          "prerelease": false,
+          "assets": [
+            {
+              "name": "7x7Live-Setup-am.exe",
+              "size": 302601522,
+              "state": "uploaded",
+              "digest": "sha256:31cc7fab4958052c95aa7e1ebf7050eaebbdf2ac07263d0a037dfd328f308b82",
+              "browser_download_url": "https://github.com/kyaj7x7/7x7live-launcher/releases/download/v0.1.129/7x7Live-Setup-am.exe"
+            },
+            {
+              "name": "7x7Live-Setup-de.exe",
+              "size": 302601522,
+              "state": "uploaded",
+              "digest": "sha256:31cc7fab4958052c95aa7e1ebf7050eaebbdf2ac07263d0a037dfd328f308b82",
+              "browser_download_url": "https://github.com/kyaj7x7/7x7live-launcher/releases/download/v0.1.129/7x7Live-Setup-de.exe"
+            },
+            {
+              "name": "7x7Live-Setup-en.exe",
+              "size": 302601522,
+              "state": "uploaded",
+              "digest": "sha256:31cc7fab4958052c95aa7e1ebf7050eaebbdf2ac07263d0a037dfd328f308b82",
+              "browser_download_url": "https://github.com/kyaj7x7/7x7live-launcher/releases/download/v0.1.129/7x7Live-Setup-en.exe"
+            },
+            {
+              "name": "7x7Live-Setup-fr.exe",
+              "size": 302601522,
+              "state": "uploaded",
+              "digest": "sha256:31cc7fab4958052c95aa7e1ebf7050eaebbdf2ac07263d0a037dfd328f308b82",
+              "browser_download_url": "https://github.com/kyaj7x7/7x7live-launcher/releases/download/v0.1.129/7x7Live-Setup-fr.exe"
+            },
+            {
+              "name": "7x7Live-Setup-uk.exe",
+              "size": 302601522,
+              "state": "uploaded",
+              "digest": "sha256:31cc7fab4958052c95aa7e1ebf7050eaebbdf2ac07263d0a037dfd328f308b82",
+              "browser_download_url": "https://github.com/kyaj7x7/7x7live-launcher/releases/download/v0.1.129/7x7Live-Setup-uk.exe"
+            },
+            {
+              "name": "7x7Live-Setup.exe",
+              "size": 302601522,
+              "state": "uploaded",
+              "digest": "sha256:31cc7fab4958052c95aa7e1ebf7050eaebbdf2ac07263d0a037dfd328f308b82",
+              "browser_download_url": "https://github.com/kyaj7x7/7x7live-launcher/releases/download/v0.1.129/7x7Live-Setup.exe"
+            },
+            {
+              "name": "7x7Live-Setup.exe.blockmap",
+              "size": 315190,
+              "state": "uploaded",
+              "digest": "sha256:0936dda43b324ab23c64e6303fde463392466341c8e3d8497850c6199c94ba8c",
+              "browser_download_url": "https://github.com/kyaj7x7/7x7live-launcher/releases/download/v0.1.129/7x7Live-Setup.exe.blockmap"
+            },
+            {
+              "name": "latest.yml",
+              "size": 333,
+              "state": "uploaded",
+              "digest": "sha256:49e9919cda0dd84e2361957da6d4ad3ef98779d7a944a21e14f3f4f4323825e5",
+              "browser_download_url": "https://github.com/kyaj7x7/7x7live-launcher/releases/download/v0.1.129/latest.yml"
             }
           ]
         }
